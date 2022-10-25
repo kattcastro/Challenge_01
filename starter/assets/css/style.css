@@ -7,11 +7,9 @@ body {
 }
 
 header {
-    padding: 30px;
+    padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    display:block;
-    float: left;
     color: #ffffff;
 }
 h1 {
@@ -22,15 +20,24 @@ h1 {
     font-size: 70px;
 }
 
-header menu li {
+menu li {
     display: inline-block;
     margin-left: 25px;
-    float: right;
 }
 
-.header h2 {
+h2 {
     display: inline-block;
     font-size: 20px;
+}
+
+id {
+    float: left;
+    margin-right: 25px;
+}
+
+id {
+    float: right;
+    margin-left: 25px;
 }
 
 a {
@@ -51,35 +58,25 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
 
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-article {
-    width: 75%;
+main {
+    width: 75px;
     display: inline-block;
-    margin-left: 20px;
+    margin-left:20px;
 }
-main article {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+
+
+id img {
+    max-height: 200px;
+    float: left;
+    float: right;
 }
 
 article img {
     max-height: 200px;
 }
 
-article h2 {
+.content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
